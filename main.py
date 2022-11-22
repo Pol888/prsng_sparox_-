@@ -65,8 +65,8 @@ def work(url):
                         writer.writerow(
                             [a[num], i, category_name, category_link, picture_link, prod_name, picture_img_link,
                              artikul, cod, manufacturer, availability, price])
-                        print(a[num], i, category_name, category_link, picture_link, prod_name, picture_img_link,
-                              artikul, cod, manufacturer, availability, price)
+                        print(f'{a[num]}|||{i}|||{category_name}|||{category_link}|||{picture_link}|||{prod_name}|||{picture_img_link}|||'
+                              f'{artikul}|||{cod}|||{manufacturer}|||{availability}|||{price}')
                 except:
                     print('Error')
 
