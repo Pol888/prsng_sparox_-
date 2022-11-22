@@ -4,7 +4,6 @@ from selenium import webdriver
 import time
 import csv
 
-
 def work(url):
     global manufacturer
     headers = {'Accept': '*/*',
