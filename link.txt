@@ -1,0 +1,8 @@
+/catalog/kamaz
+/catalog/maz
+/catalog/uralaz
+/catalog/gaz
+/catalog/kraz
+/catalog/ehlektrika
+/catalog/maslo
+/catalog/instrument
